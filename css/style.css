@@ -1,0 +1,108 @@
+body{
+    color: background-color(219, 206, 16);
+}
+.wrapper {
+    max-width: 750px;
+    margin: 50px auto 15px auto;
+}
+
+.h1{
+    text-align: left;
+    color: rgba(170, 25, 25, 0.815);
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+    font-size: 150%;
+}
+
+.h2{
+    text-align: center;
+    color: rgba(170, 25, 25, 0.815);
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+    font-size: 150%;
+}
+.h3{
+    text-align: right;
+    color: rgba(170, 25, 25, 0.815);
+    text-shadow: 1px 1px 2px black, 0 0 1em red; 
+    font-size: 150%;
+}
+
+.wr_img{
+    width: 100%;
+}
+
+hr{
+    border: 2px solid red;
+}
+
+.galery, .galery2{
+    text-align: center;
+}
+
+.galery img{
+    width: 40%;
+    height: 150px;
+    transition: all 0.2s;
+}
+
+.galery img:hover{
+    transform: scale(1.2);
+}
+
+
+.galery2 .item{
+    width: 40%;
+    height: 150px;
+    background-color: rgb(54, 187, 14);
+    margin: 1%;
+    display: inline-block;
+    background-size: 100%;
+    transition: all 1s;
+}
+
+.galery2 .item1{
+    background-image: url("https://www.calend.ru/img/Articles/2017/NY/%D0%9D%D0%93-%D0%95%D0%BB%D0%BA%D0%B0.jpg");
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+
+.galery2 .item2{
+    background-image: url("http://podarki.kommunarka.by/images/cms/data/blog/kto-pridumal-otmechat-novyj-god.jpg");
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+
+.galery2 .item3{
+    background-image: url("https://www.calend.ru/img/Articles/2017/NY/%D0%9D%D0%93-%D0%94%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8.jpg");
+    background-repeat: no-repeat;
+  
+    background-position: center;
+}
+
+.galery2 .item4{
+    background-image: url("https://www.calend.ru/img/Articles/2017/NY/%D0%9D%D0%93-%D0%92%D0%B5%D1%81%D0%B5%D0%BB%D0%BE.jpg");
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+
+.galery2 .item5{
+    background-image: url("https://img.gazeta.ru/files3/823/8002823/upload-01_1319381376-pic905-895x505-81889.jpg");
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+
+.galery2 .item6{
+    background-image: url("https://img.gazeta.ru/files3/865/8002865/upload-01_2011_13_26_46_1301048806-pic905v-895x505-40678.jpg");
+    background-repeat: no-repeat;
+   
+    background-position: center;
+}
+
+.galery2 .item:hover{
+    background-size: 120%;
+}
+
+
